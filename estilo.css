@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family:fonte_pizza;
+    src: url(font.ttf);
+}
+header{ 
+    height: 500px;
+    background-image: url(pizzaimg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;/*ajustar imagem backgroud*/
+    background-position: center;/*ajustar imagem backgroud*/
+}
+nav ul{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    
+}
+li{
+    font-family: fonte_pizza;
+    font-size: 30px;
+}
+h1{
+    
+    font-family:fonte_pizza;
+    text-align: center;
+    font-size: 60px;
+}
